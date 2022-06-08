@@ -1,22 +1,15 @@
 import type { NextPage } from "next";
-import Head from "next/head";
+import Header from "../components/general/Header";
+import SideBar from "../components/general/SideBar";
 
 const Home: NextPage = () => {
     return (
-        <div>
-            <Head>
-                <title>alat - Tools for every developer</title>
-                <meta
-                    name="description"
-                    content="Helping every developer with their tasks"
-                />
-                <link rel="icon" href="/favicon.ico" />
-            </Head>
-
+        <>
+            <Header />
             <main>
-                <h1 className="italic">Hello world!</h1>
+                <SideBar />
             </main>
-        </div>
+        </>
     );
 };
 
