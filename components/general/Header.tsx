@@ -14,7 +14,7 @@ export default function Header({
                 name="description"
                 content="Helping every developer with their tasks"
             />
-            <link rel="icon" href="/favicon.ico" />
+            <link rel="icon" href="https://fav.farm/🛠" />
             {
                 // TODO: use Document
             }
